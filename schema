@@ -1,0 +1,51 @@
+A M V_F D S/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── amv/
+│   │   │           └── fooddelivery/
+│   │   │               ├── Main.java
+│   │   │               ├── model/
+│   │   │               │   ├── User.java
+│   │   │               │   ├── Restaurant.java
+│   │   │               │   ├── MenuItem.java
+│   │   │               │   ├── Order.java
+│   │   │               │   └── OrderStatus.java
+│   │   │               ├── service/
+│   │   │               │   ├── AuthService.java
+│   │   │               │   ├── OrderService.java
+│   │   │               │   ├── RestaurantService.java
+│   │   │               │   └── UserService.java
+│   │   │               ├── ui/
+│   │   │               │   ├── LoginUI.java
+│   │   │               │   ├── RegisterUI.java
+│   │   │               │   ├── DashboardUI.java
+│   │   │               │   ├── RestaurantUI.java
+│   │   │               │   ├── OrderUI.java
+│   │   │               │   └── ProfileUI.java
+│   │   │               └── util/
+│   │   │                   ├── InputValidator.java
+│   │   │                   ├── DisplayUtil.java
+│   │   │                   └── Constants.java
+│   │   └── resources/
+│   │       └── data/
+│   │           ├── users.txt
+│   │           ├── restaurants.txt
+│   │           └── orders.txt
+├── docs/
+│   ├── README.md
+│   ├── USER_GUIDE.md
+│   └── ARCHITECTURE.md
+├── test/
+│   └── java/
+│       └── com/
+│           └── amv/
+│               └── fooddelivery/
+│                   ├── service/
+│                   │   ├── AuthServiceTest.java
+│                   │   └── OrderServiceTest.java
+│                   └── util/
+│                       └── InputValidatorTest.java
+├── build.gradle
+└── .gitignore
