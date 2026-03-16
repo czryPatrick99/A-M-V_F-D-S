@@ -1,4 +1,4 @@
-package model;
+package model.emus;
 
 public class Payment {
     private String mobileNumber;  // Changed to String
